@@ -37,7 +37,7 @@ header {
   max-width: 1440px;
   margin: auto auto;
 }
-section{
+section {
   max-width: 1110px;
   margin: 100px auto auto auto;
 }
@@ -50,7 +50,7 @@ section{
   font-size: 1rem;
   font-weight: 600;
   color: var(--optional-text);
-  margin:20px auto 20px auto;
+  margin: 20px auto 20px auto;
 }
 /* Sheard styles close */
 
@@ -81,37 +81,93 @@ nav {
 /* navigation bar style close */
 
 /* Banner section style start */
-.banner{
+.banner {
   display: flex;
-  padding: 70px 15px auto 15px ;
+  padding: 70px 15px auto 15px;
   justify-content: space-between;
   align-items: center;
   flex-direction: row;
-
 }
-.banner-content button{
+.banner-content{
+  margin-left: 100px;
+}
+.banner-content button {
   border-radius: 25px;
 }
-.banner-img{
+.banner-img {
   background: url(../assets/images/Circle\ design.svg);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   margin-right: 40px;
- 
 }
-.banner-img img{
+.banner-img img {
   width: 100%;
 }
 /* Banner section style close */
 
 /* Sponsors section start */
-  .sponsors{
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: row;
-    justify-content: space-around;
-    align-items: center;
-    padding: 30px;
-  }
+.sponsors {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  padding: 30px;
+}
 /* Sponsors section close */
+
+
+/* pupolar collection section styles start */
+.collection {
+
+}
+.collection h4 {
+  text-align: center;
+}
+.collection-card {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  margin-top: 30px;
+  gap: 40px;
+}
+.collection-card div {
+  margin-top: 20px;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0px 0px 40px 0px rgba(0, 0, 0, 0.15);
+  background: rgb(255, 255, 255);
+}
+.collection-card div img{
+  width: 100%;
+}
+.collection-card div h3{
+  font-size: 1.75rem;
+  font-weight: 500;
+}
+.collection-card div h5{
+  font-size: 1.50rem;
+font-weight: 400;
+}
+.collection-card div p{
+  margin-top: 0px;
+}
+.card-btn{
+  width:100%;
+  margin-top:20px ;
+  text-align: end;
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: end;
+background: transparent;
+color: var(--btn-color);
+cursor: pointer;
+}
+/* pupolar collection section styles close */
+
+
+
+
+
+/* responsive media query close */
