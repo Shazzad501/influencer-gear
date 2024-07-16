@@ -190,5 +190,44 @@ font-weight: 700;
 /* Features section style close */
 
 
+/* Footer section style start*/
+footer{
+  max-width:1440px;
+  margin: auto auto;
+  background-color:var(--secondery-text);
+  padding-top: 50px;
+  padding-bottom: 50px;
+  color: var(--btn-text);
+  text-align: center;
+
+}
+footer h3{
+  font-size: 1.50rem;
+font-weight: 700;
+}
+footer p{
+  margin: 10px auto;
+  font-family: Manrope;
+  font-size: 1rem;
+  font-weight: 700;
+}
+footer h5{
+  margin-bottom: 10px;
+}
+footer span{
+  font-size: 1.50rem;
+  margin-top: 10px;
+  text-align: center;
+  max-width:100px;
+  min-height: 100px;
+  padding: 5px 10px;
+  border-radius:50%;
+  background-color: rgb(35, 33, 60);
+
+}
+/* Footer section style close*/
+
+
+
 
 /* responsive media query close */
