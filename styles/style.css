@@ -106,5 +106,12 @@ nav {
 /* Banner section style close */
 
 /* Sponsors section start */
-
+  .sponsors{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    padding: 30px;
+  }
 /* Sponsors section close */
