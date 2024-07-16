@@ -1,0 +1,110 @@
+/* google font family link start */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+/* google font family link close */
+
+/* Universal tag selector styles start */
+* {
+  font-family: "Poppins", sans-serif;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+/* Universal tag selector styles close */
+
+/* Sheard styles start */
+:root {
+  --main-text: rgb(58, 58, 58);
+  --secondery-text: rgb(10, 8, 38);
+  --optional-text: rgb(120, 120, 133);
+  --btn-color: rgb(224, 44, 109);
+  --btn-text: white;
+}
+
+.btn {
+  font-size: 1.1rem;
+  padding: 10px 15px;
+  text-align: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  border-radius: 8px;
+  border: none;
+  color: var(--btn-text);
+  background-color: var(--btn-color);
+}
+header {
+  max-width: 1440px;
+  margin: auto auto;
+}
+section{
+  max-width: 1110px;
+  margin: 100px auto auto auto;
+}
+.section-title {
+  font-size: 3rem;
+  font-weight: 700;
+  color: var(--main-text);
+}
+.section-description {
+  font-size: 1rem;
+  font-weight: 600;
+  color: var(--optional-text);
+  margin:20px auto 20px auto;
+}
+/* Sheard styles close */
+
+/* navigation bar style start */
+nav {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 10px 20px;
+  min-height: 100px;
+}
+.brand-nav {
+  font-size: 24px;
+  font-weight: 700;
+}
+.nav-item {
+  display: flex;
+  list-style: none;
+  gap: 30px;
+}
+.nav-item li a {
+  text-decoration: none;
+  color: var(--secondery-text);
+  font-size: 1rem;
+  font-weight: 600;
+}
+/* navigation bar style close */
+
+/* Banner section style start */
+.banner{
+  display: flex;
+  padding: 70px 15px auto 15px ;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
+
+}
+.banner-content button{
+  border-radius: 25px;
+}
+.banner-img{
+  background: url(../assets/images/Circle\ design.svg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-right: 40px;
+ 
+}
+.banner-img img{
+  width: 100%;
+}
+/* Banner section style close */
+
+/* Sponsors section start */
+
+/* Sponsors section close */
