@@ -166,7 +166,28 @@ cursor: pointer;
 }
 /* pupolar collection section styles close */
 
-
+/* Features section style start */
+.features{
+  display: flex;
+  gap: 100px;
+  flex-direction: row;
+  align-items: center;
+  justify-items: center;
+  max-width: 1150px ;
+  margin-bottom: 100px;
+}
+.features-img img{
+  width: 100%;
+}
+.features-title{
+  font-size: 2.25rem;
+  color: var(--secondery-text);
+font-weight: 700;
+}
+.features button{
+  border-radius: 0px;
+}
+/* Features section style close */
 
 
 
